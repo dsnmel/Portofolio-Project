@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 50px; /* Padding sedikit dikecilkan agar kotak tidak terlalu tebal */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  /* --- UBAH BAGIAN INI --- */
+  background-color: #ffffff; /* Kita buat putih solid agar bentuk kotaknya jelas */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Menambahkan shadow yang lebih tegas di bawah kotak */
+  /* ----------------------- */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none; /* Hapus titik-titik (bullets) list */
+  margin: 0;
+  padding: 0;
+  gap: 30px; /* Jarak antar item menu */
+}
+
+.nav-links li a {
+  text-decoration: none; /* Hapus garis bawah pada link */
+  color: #555555; /* Warna teks abu-abu tua */
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav-links li a:hover {
+  color: #6c63ff; /* Warna ungu saat kursor diarahkan (hover) */
+}
+
+.nav-links li a.active {
+  color: #6c63ff;
+  font-weight: 700; /* Opsional: buat teks sedikit lebih tebal agar kontras */
+  border-bottom: 2px solid #6c63ff; /* Opsional: tambah garis bawah kecil */
+  padding-bottom: 5px;
+}
+
+.simple-footer {
+  position: fixed; /* Membuatnya selalu menempel di layar */
+  bottom: 0;       /* Menempel persis di paling bawah */
+  left: 0;
+  width: 100%;     /* Lebar penuh dari kiri ke kanan */
+  height: 40px;    /* Ketebalan persegi panjang, silakan ubah sesuai selera */
+  background-color: #6c63ff; /* Warna ungu agar serasi */
+  z-index: 100;    /* Memastikan posisinya di atas elemen lain */
+}

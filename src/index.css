@@ -1,0 +1,14 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* Tailwind v4 sudah menangani reset CSS secara otomatis melalui @import di atas, 
+   jadi Anda tidak perlu lagi menuliskan margin: 0 atau padding: 0 secara manual */
+
+body {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  @apply bg-white text-black min-h-screen overflow-x-hidden;
+}
+
+#root {
+  @apply w-full min-h-screen;
+}
