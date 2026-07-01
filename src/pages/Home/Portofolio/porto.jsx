@@ -174,6 +174,47 @@ const Portofolio = () => {
             </div>
           </div>
 
+            {/* CARD 3: SKRIPSI AI NLP (T5 TRANSFORMER) */}
+            <div className="bg-white/80 backdrop-blur-xl border border-slate-200 rounded-[2rem] p-6 md:p-8 shadow-lg flex flex-col justify-between">
+            <div>
+              <div className="flex items-center gap-2 mb-4">
+                <span className="px-2.5 py-1 rounded-lg bg-indigo-50 text-indigo-700 text-[10px] font-black uppercase tracking-wider border border-indigo-200/50">Power BI Project</span>
+                <span className="px-2.5 py-1 rounded-lg bg-amber-50 text-amber-700 text-[10px] font-black uppercase tracking-wider border border-amber-200/50">Sales Dashboard</span>
+              </div>
+              <h3 className="text-xl font-black text-slate-900 mb-3">Sales Executive Performance Dashboard</h3>
+              <p className="text-slate-600 text-sm leading-relaxed mb-6">
+                Dashboard interaktif mengukur total profit dan sales berdasarkan bulan, dan tren total sales per segment.
+              </p>
+              
+              <div className="border-t border-slate-150 pt-4">
+                <h4 className="text-[10px] font-black uppercase tracking-[0.15em] text-slate-400 mb-3">Toolkit & Methodology</h4>
+                <div className="flex flex-wrap gap-1.5 mb-6">
+                  {["Excel", "Power BI"].map((tech, i) => (
+                    <span key={i} className="px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700 text-[11px] font-bold border border-slate-200/50">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* LINK GOOGLE COLAB */}
+            <div className="border-t border-slate-150 pt-4 flex flex-col sm:flex-row items-center justify-between gap-3 mt-auto">
+              <div className="flex-1">
+                <h4 className="text-xs font-bold text-slate-800">Resources and Documentation</h4>
+                <p className="text-[11px] text-slate-400 mt-0.5 leading-tight">Lihat Detail Data dan Dashboard.</p>
+              </div>
+              <a 
+                href="https://drive.google.com/drive/folders/1ZBg0uSGb3O1iikw_TMDcbjEOndwzvEwh?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-[11px] font-black tracking-wide text-center transition-all shadow-sm hover:shadow-orange-600/20 flex items-center justify-center gap-1.5 shrink-0"
+              >
+                💻 Open Project
+              </a>
+            </div>
+          </div>
+
         </div>
       ) : (
           /* ==================== ISI TAB: AS WEB DEVELOPER (PROJECT CARDS) ==================== */
