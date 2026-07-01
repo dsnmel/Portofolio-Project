@@ -208,7 +208,7 @@ const Portofolio = () => {
                 href="https://drive.google.com/drive/folders/1ZBg0uSGb3O1iikw_TMDcbjEOndwzvEwh?usp=sharing" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-700 text-white text-[11px] font-black tracking-wide text-center transition-all shadow-sm hover:shadow-orange-600/20 flex items-center justify-center gap-1.5 shrink-0"
+                className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-[11px] font-black tracking-wide text-center transition-all shadow-sm hover:shadow-blue-600/20 flex items-center justify-center gap-1.5 shrink-0"
               >
                 💻 Open Project
               </a>
