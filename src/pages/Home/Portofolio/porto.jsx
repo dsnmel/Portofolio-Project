@@ -174,7 +174,7 @@ const Portofolio = () => {
             </div>
           </div>
 
-            {/* CARD 3: SKRIPSI AI NLP (T5 TRANSFORMER) */}
+            {/* CARD 3: POWER BI */}
             <div className="bg-white/80 backdrop-blur-xl border border-slate-200 rounded-[2rem] p-6 md:p-8 shadow-lg flex flex-col justify-between">
             <div>
               <div className="flex items-center gap-2 mb-4">
@@ -209,6 +209,46 @@ const Portofolio = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-[11px] font-black tracking-wide text-center transition-all shadow-sm hover:shadow-blue-600/20 flex items-center justify-center gap-1.5 shrink-0"
+              >
+                💻 Open Project
+              </a>
+            </div>
+          </div>
+
+          {/* CARD 3: CRUD FILE DOK SISWA */}
+            <div className="bg-white/80 backdrop-blur-xl border border-slate-200 rounded-[2rem] p-6 md:p-8 shadow-lg flex flex-col justify-between">
+            <div>
+              <div className="flex items-center gap-2 mb-4">
+                <span className="px-2.5 py-1 rounded-lg bg-indigo-50 text-indigo-700 text-[10px] font-black uppercase tracking-wider border border-indigo-200/50">CRUD Project</span>
+                <span className="px-2.5 py-1 rounded-lg bg-amber-50 text-amber-700 text-[10px] font-black uppercase tracking-wider border border-amber-200/50">Student Documents</span>
+              </div>
+              <h3 className="text-xl font-black text-slate-900 mb-3">Student Document Management System</h3>
+              <p className="text-slate-600 text-sm leading-relaxed mb-6">
+                Sistem manajemen dokumen siswa dengan fitur CRUD (Create, Read, Update, Delete) untuk mengelola data dokumen secara efisien.
+              </p>
+              
+              <div className="border-t border-slate-150 pt-4">
+                <h4 className="text-[10px] font-black uppercase tracking-[0.15em] text-slate-400 mb-3">Toolkit & Methodology</h4>
+                <div className="flex flex-wrap gap-1.5 mb-6">
+                  {["HTML", "CSS", "JavaScript", "Node.js", "Express.js"].map((tech, i) => (
+                    <span key={i} className="px-2.5 py-1 rounded-lg bg-slate-100 text-slate-700 text-[11px] font-bold border border-slate-200/50">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* LINK GOOGLE COLAB */}
+            <div className="border-t border-slate-150 pt-4 flex flex-col sm:flex-row items-center justify-between gap-3 mt-auto">
+              <div className="flex-1">
+                <h4 className="text-xs font-bold text-slate-800">View Dashboard</h4>
+              </div>
+              <a 
+                href="https://data-siswa-lac.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto px-4 py-2.5 rounded-xl bg-yellow-600 hover:bg-yellow-700 text-white text-[11px] font-black tracking-wide text-center transition-all shadow-sm hover:shadow-blue-600/20 flex items-center justify-center gap-1.5 shrink-0"
               >
                 💻 Open Project
               </a>
